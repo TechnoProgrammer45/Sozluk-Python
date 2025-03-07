@@ -1,14 +1,22 @@
-meme_dict = {
-            "CRINGE": "Garip ya da utandırıcı bir şey",
-            "LOL": "Komik bir şeye verilen cevap",
-            }
+print("Merhaba, ben bir sözlüğüm. Bilmediğin kelimelerin anlamlarını söylüyorum. Lütfen doğru yazmaya özen göster!")
 
+for i in range(5):
+    word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
 
-word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+    if word =="LOL":
+        print("Komik bir şeye verilen cevap")
+    
+    if word =="CRINGE":
+        print("Garip ya da utandırıcı bir şey")
 
-if word in meme_dict.keys():
-    print("Garip ya da utandırıcı bir şey")
-else:
- print("Komik bir şeye verilen cevap")
+    if word =="ROFL":
+        print("Bir şakaya karşılık cevap")
 
+    if word =="SHEESH":
+        print("Onaylamamak")
 
+    if word =="CREEPY":
+        print("Korkunç")
+
+    if word =="AGGRO":
+        print("Agresifleşmek/sinirlenmek")
